@@ -21,4 +21,4 @@
 ## 🚀 Как использовать
 1. Клонировать репозиторий:
    ```bash
-   git clone https://SharifZaebal.github.io/lagoona-hotel-booking/
+   git clone https://github.com/SharifZaebal/lagoona-hotel-website.git
