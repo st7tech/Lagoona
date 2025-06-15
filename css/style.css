@@ -1,0 +1,64 @@
+.log-in-link {
+    background-image: url('/img/log-in.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    padding-left: 25px;
+}
+
+.offers-card-link-more {
+    background-image: url('/img/details-icon.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    padding-right: 15px;
+}
+
+.services-item-link {
+    background-image: url('/img/details-icon.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    padding-right: 15px;
+}
+
+.advantages-item-icon {
+    height: 66px;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.advantages-item-icon--1 {
+    background-image: url('/img/benefit-1.svg');
+}
+.advantages-item-icon--2 {
+    background-image: url('/img/benefit-2.svg');
+}
+.advantages-item-icon--3 {
+    background-image: url('/img/benefit-3.svg');
+}
+.advantages-item-icon--4 {
+    background-image: url('/img/benefit-4.svg');
+}
+.advantages-item-icon--5 {
+    background-image: url('/img/benefit-5.svg');
+}
+.advantages-item-icon--6 {
+    background-image: url('/img/benefit-6.svg');
+}
+.advantages-item-icon--7 {
+    background-image: url('/img/benefit-7.svg');
+}
+.advantages-item-icon--8 {
+    background-image: url('/img/benefit-8.svg');
+}
+
+.hotel-card-link {
+    background-image: url('/img/white-rectangle.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    padding-right: 15px;
+}
