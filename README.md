@@ -18,5 +18,7 @@
 - CSS3 (Flexbox/Grid, адаптив)  
 - JavaScript (форма бронирования)  
 
-## 🚀 Демо  
-[Посмотреть онлайн](https://SharifZaebal.github.io/lagoona-hotel-booking/)  
+## 🚀 Как использовать
+1. Клонировать репозиторий:
+   ```bash
+   git clone https://SharifZaebal.github.io/lagoona-hotel-booking/
