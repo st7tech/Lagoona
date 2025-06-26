@@ -1,9 +1,161 @@
+/* Default style start */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1200px;
+    font-family: 'font', sans-serif;
+}
+
+/* Default style end */
+
+/* Global style start */
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.section-title {
+    margin: 0;
+    padding-left: 40px;
+}
+
+.section-descr {
+    margin: 0;
+}
+
+.section-offset {
+    padding: 70px 0;
+}
+
+.outline {
+    outline: 1px solid coral;
+}
+
+/* Global style end */
+
+/* Header section start */
+
+.header {
+    padding-top: 40px;
+}
+
+.header-top {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-top-left {
+    margin-right: auto;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 40px;
+}
+
+.header-bottom-left {
+    margin-right: auto;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.header-bottom {
+    padding: 27px 45px;
+}
+
+.header-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
 .log-in-link {
     background-image: url('/img/log-in.svg');
     background-repeat: no-repeat;
     background-position: left center;
 
     padding-left: 25px;
+}
+
+/* Header section end */
+
+/* Offers section start */
+
+.special-offers-title {
+    margin-bottom: 20px;
+}
+
+.offers-left-cards {
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.offers-left-card {
+    width: 573px;
+    padding: 40px 0 40px 40px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.offers-left-card:not(:last-child) {
+    margin-bottom: 23px;
+}
+
+.offers-right-card {
+    width: 573px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    padding-left: 40px;
+}
+
+.offers-card-title {
+    margin: 0;
+    margin-bottom: 15px;
+
+    width: 299px;
+}
+
+.offers-card-price {
+    margin-bottom: 47px;
 }
 
 .offers-card-link-more {
@@ -14,6 +166,52 @@
     padding-right: 15px;
 }
 
+/* Offers section end */
+
+
+/* About us section start */
+
+.about-us-title {
+    margin-bottom: 11px;
+}
+
+.about-us-descr {
+    width: 888px;
+}
+
+/* About us section end */
+
+/* Services section start */
+
+.services-title {
+    margin-bottom: 20px;
+}
+
+.services-list {
+    flex-wrap: wrap;
+}
+
+.services-item {
+    width: 573px;
+    margin-bottom: 23px;
+    padding: 26px 126px 50px 45px;
+}
+.services-item:not(:nth-child(2n)) {
+    margin-right: 23px;
+}
+.services-item:nth-child(n+3) {
+    margin-bottom: 0;
+}
+
+.services-item-title {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.services-item-descr {
+    margin: 0;
+}
+
 .services-item-link {
     background-image: url('/img/details-icon.svg');
     background-repeat: no-repeat;
@@ -22,12 +220,38 @@
     padding-right: 15px;
 }
 
+/* Services section end */
+
+/* Advantages section start */
+
+.advantages-title {
+    margin-bottom: 30px;
+}
+
+.advantages-list {
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    width: 275px;
+    margin-bottom: 23px;
+    padding: 40px 42px 41px 45px;
+}
+.advantages-item:not(:nth-child(4n)) {
+    margin-right: 23px;
+}
+.advantages-item:nth-child(n+5) {
+    margin-bottom: 0;
+}
+
 .advantages-item-icon {
     height: 66px;
     width: 100%;
 
     background-repeat: no-repeat;
     background-position: left center;
+
+    margin-bottom: 10px;
 }
 
 .advantages-item-icon--1 {
@@ -55,10 +279,87 @@
     background-image: url('/img/benefit-8.svg');
 }
 
+/* Advantages section end */
+
+/* Placement section start */
+
+.placement-title {
+    margin-bottom: 30px;
+
+}
+
+.placement-list {
+    flex-wrap: wrap;
+}
+
+.placement-item {
+    width: 374px;
+    min-height: 440px;
+    margin-bottom: 23px;
+    position: relative;
+}
+.placement-item:not(:nth-child(3n)) {
+    margin-right: 23px;
+}
+.placement-item:nth-child(n+7) {
+    margin-bottom: 0px;
+}
+
+.hotel-card-info {
+    justify-content: space-between;
+    padding: 36px 45px 41px 45px;
+}
+
+.hotel-card-price {
+    margin-bottom: 16px;
+}
+
+.hotel-card-name {
+    margin-bottom: 16px;
+}
+
+.hotel-card-location {
+    margin-bottom: 20px;
+}
+
+.hotel-star {
+    width: 14px;
+    height: 14px;
+}
+
+.hotel-card-price {
+    justify-content: space-between;
+}
+
 .hotel-card-link {
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 22%;
+    color: white;
+
     background-image: url('/img/white-rectangle.svg');
     background-repeat: no-repeat;
     background-position: right center;
 
     padding-right: 15px;
 }
+
+/* Placement section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
