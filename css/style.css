@@ -1,27 +1,36 @@
 /* Default style start */
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 body {
-    min-width: 1200px;
-    font-family: 'font', sans-serif;
+  min-width: 1200px;
+  font-family: "font", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 /* Default style end */
@@ -29,43 +38,43 @@ body {
 /* Global style start */
 
 .container {
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .list-reset {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .btn-reset {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .section-title {
-    margin: 0;
-    padding-left: 40px;
+  margin: 0;
+  padding-left: 40px;
 }
 
 .section-descr {
-    margin: 0;
+  margin: 0;
 }
 
 .section-offset {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
 .outline {
-    outline: 1px solid coral;
+  outline: 1px solid coral;
 }
 
 /* Global style end */
@@ -73,45 +82,45 @@ body {
 /* Header section start */
 
 .header {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 .header-top {
-    align-items: center;
-    margin-bottom: 30px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .header-top-left {
-    margin-right: auto;
-    align-items: center;
+  margin-right: auto;
+  align-items: center;
 }
 
 .header-logo {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
-.header-bottom-left {
-    margin-right: auto;
+.header-nav {
+  margin-right: auto;
 }
 
 .header-item:not(:last-child) {
-    margin-right: 45px;
+  margin-right: 45px;
 }
 
 .header-bottom {
-    padding: 27px 45px;
+  padding: 27px 45px;
 }
 
 .header-btn:not(:last-child) {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .log-in-link {
-    background-image: url('/img/log-in.svg');
-    background-repeat: no-repeat;
-    background-position: left center;
+  background-image: url("/img/log-in.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
 
-    padding-left: 25px;
+  padding-left: 25px;
 }
 
 /* Header section end */
@@ -119,64 +128,63 @@ body {
 /* Offers section start */
 
 .special-offers-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .offers-left-cards {
-    flex-direction: column;
-    margin-right: auto;
+  flex-direction: column;
+  margin-right: auto;
 }
 
 .offers-left-card {
-    width: 573px;
-    padding: 40px 0 40px 40px;
-    flex-direction: column;
-    align-items: start;
+  width: 573px;
+  padding: 40px 0 40px 40px;
+  flex-direction: column;
+  align-items: start;
 }
 
 .offers-left-card:not(:last-child) {
-    margin-bottom: 23px;
+  margin-bottom: 23px;
 }
 
 .offers-right-card {
-    width: 573px;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+  width: 573px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .offers-card-title {
-    margin: 0;
-    margin-bottom: 15px;
+  margin: 0;
+  margin-bottom: 15px;
 
-    width: 299px;
+  width: 299px;
 }
 
 .offers-card-price {
-    margin-bottom: 47px;
+  margin-bottom: 47px;
 }
 
 .offers-card-link-more {
-    background-image: url('/img/details-icon.svg');
-    background-repeat: no-repeat;
-    background-position: right center;
+  background-image: url("/img/details-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
 
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 /* Offers section end */
 
-
 /* About us section start */
 
 .about-us-title {
-    margin-bottom: 11px;
+  margin-bottom: 11px;
 }
 
 .about-us-descr {
-    width: 888px;
+  width: 888px;
 }
 
 /* About us section end */
@@ -184,40 +192,40 @@ body {
 /* Services section start */
 
 .services-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .services-list {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .services-item {
-    width: 573px;
-    margin-bottom: 23px;
-    padding: 26px 126px 50px 45px;
+  width: 573px;
+  margin-bottom: 23px;
+  padding: 26px 126px 50px 45px;
 }
 .services-item:not(:nth-child(2n)) {
-    margin-right: 23px;
+  margin-right: 23px;
 }
-.services-item:nth-child(n+3) {
-    margin-bottom: 0;
+.services-item:nth-child(n + 3) {
+  margin-bottom: 0;
 }
 
 .services-item-title {
-    margin: 0;
-    margin-bottom: 5px;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 .services-item-descr {
-    margin: 0;
+  margin: 0;
 }
 
 .services-item-link {
-    background-image: url('/img/details-icon.svg');
-    background-repeat: no-repeat;
-    background-position: right center;
+  background-image: url("/img/details-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
 
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 /* Services section end */
@@ -225,58 +233,57 @@ body {
 /* Advantages section start */
 
 .advantages-title {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .advantages-list {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.advantages-item {
-    width: 275px;
-    margin-bottom: 23px;
-    padding: 40px 42px 41px 45px;
+.advantages-card-item {
+  width: 275px;
+  padding: 40px 42px 41px 45px;
 }
 .advantages-item:not(:nth-child(4n)) {
-    margin-right: 23px;
+  margin-right: 23px;
 }
-.advantages-item:nth-child(n+5) {
-    margin-bottom: 0;
+.advantages-item:not(:nth-child(n + 5)) {
+  margin-bottom: 23px;
 }
 
 .advantages-item-icon {
-    height: 66px;
-    width: 100%;
+  height: 66px;
+  width: 100%;
 
-    background-repeat: no-repeat;
-    background-position: left center;
+  background-repeat: no-repeat;
+  background-position: left center;
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .advantages-item-icon--1 {
-    background-image: url('/img/benefit-1.svg');
+  background-image: url("/img/benefit-1.svg");
 }
 .advantages-item-icon--2 {
-    background-image: url('/img/benefit-2.svg');
+  background-image: url("/img/benefit-2.svg");
 }
 .advantages-item-icon--3 {
-    background-image: url('/img/benefit-3.svg');
+  background-image: url("/img/benefit-3.svg");
 }
 .advantages-item-icon--4 {
-    background-image: url('/img/benefit-4.svg');
+  background-image: url("/img/benefit-4.svg");
 }
 .advantages-item-icon--5 {
-    background-image: url('/img/benefit-5.svg');
+  background-image: url("/img/benefit-5.svg");
 }
 .advantages-item-icon--6 {
-    background-image: url('/img/benefit-6.svg');
+  background-image: url("/img/benefit-6.svg");
 }
 .advantages-item-icon--7 {
-    background-image: url('/img/benefit-7.svg');
+  background-image: url("/img/benefit-7.svg");
 }
 .advantages-item-icon--8 {
-    background-image: url('/img/benefit-8.svg');
+  background-image: url("/img/benefit-8.svg");
 }
 
 /* Advantages section end */
@@ -284,65 +291,68 @@ body {
 /* Placement section start */
 
 .placement-title {
-    margin-bottom: 30px;
-
+  margin-bottom: 30px;
 }
 
 .placement-list {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .placement-item {
-    width: 374px;
-    min-height: 440px;
-    margin-bottom: 23px;
-    position: relative;
+  margin-bottom: 23px;
 }
 .placement-item:not(:nth-child(3n)) {
-    margin-right: 23px;
+  margin-right: 23px;
 }
-.placement-item:nth-child(n+7) {
-    margin-bottom: 0px;
+.placement-item:nth-child(n + 7) {
+  margin-bottom: 0px;
+}
+
+.placement-card-item {
+  width: 374px;
+  min-height: 440px;
+  position: relative;
 }
 
 .hotel-card-info {
-    justify-content: space-between;
-    padding: 36px 45px 41px 45px;
+  justify-content: space-between;
+  padding: 36px 45px 41px 45px;
 }
 
 .hotel-card-price {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .hotel-card-name {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .hotel-card-location {
-    margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .hotel-star {
-    width: 14px;
-    height: 14px;
+  width: 14px;
+  height: 14px;
 }
 
 .hotel-card-price {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .hotel-card-link {
-    display: inline-block;
-    position: absolute;
-    top: 80%;
-    left: 22%;
-    color: white;
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: 22%;
+  color: white;
 
-    background-image: url('/img/white-rectangle.svg');
-    background-repeat: no-repeat;
-    background-position: right center;
+  background-image: url("/img/white-rectangle.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
 
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 /* Placement section end */
