@@ -252,6 +252,7 @@ h6 {
 }
 
 .advantages-item-icon {
+  display: block;
   height: 66px;
   width: 100%;
 
@@ -314,8 +315,7 @@ h6 {
   position: relative;
 }
 
-.hotel-card-info {
-  justify-content: space-between;
+.hotel-card-text {
   padding: 36px 45px 41px 45px;
 }
 
