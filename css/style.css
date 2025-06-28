@@ -21,7 +21,8 @@ img {
 
 body {
   min-width: 1200px;
-  font-family: "font", sans-serif;
+  font-family: "Muller", sans-serif;
+  background-color: #F1F1F1;
 }
 
 h1,
@@ -31,6 +32,46 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Light'), 
+  url('/fonts/MullerLight.woff2') format('woff2'),
+  url('/fonts/MullerLight.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Regular'), 
+  url('/fonts/MullerRegular.woff2') format('woff2'),
+  url('/fonts/MullerRegular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Medium'), 
+  url('/fonts/MullerMedium.woff2') format('woff2'),
+  url('/fonts/MullerMedium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller-Bold'), 
+  url('/fonts/MullerBold.woff2') format('woff2'),
+  url('/fonts/MullerBold.woff') format('woff');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
 }
 
 /* Default style end */
@@ -73,6 +114,17 @@ h6 {
   padding: 70px 0;
 }
 
+.btn {
+  padding: 13px 20px;
+
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+
+  color: #CC9933;
+  font-size: 16px;
+  line-height: 16px;
+}
+
 .outline {
   outline: 1px solid coral;
 }
@@ -100,7 +152,7 @@ h6 {
 }
 
 .header-nav {
-  margin-right: auto;
+  margin-right: 56px;
 }
 
 .header-item:not(:last-child) {
@@ -108,7 +160,16 @@ h6 {
 }
 
 .header-bottom {
-  padding: 27px 45px;
+  align-items: center;
+  padding: 14px 45px;
+
+  background-color: #fff;
+
+  border-radius: 15px;
+}
+
+.header-btn {
+  min-width: 107px;
 }
 
 .header-btn:not(:last-child) {
@@ -119,8 +180,31 @@ h6 {
   background-image: url("/img/log-in.svg");
   background-repeat: no-repeat;
   background-position: left center;
+  background-size: 21px 17px;
 
-  padding-left: 25px;
+  padding-left: 26px;
+
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+}
+
+.header-call-link {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #666666;
+}
+
+.header-item-link {
+  font-size: 16px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.header-bottom-btns {
+  padding-left: 57px;
+  border-left: 1px solid #E1E1E1;
 }
 
 /* Header section end */
