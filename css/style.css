@@ -22,7 +22,7 @@ img {
 body {
   min-width: 1200px;
   font-family: "Muller", sans-serif;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 h1,
@@ -35,40 +35,37 @@ h6 {
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('Muller-Light'), 
-  url('/fonts/MullerLight.woff2') format('woff2'),
-  url('/fonts/MullerLight.woff') format('woff');
+  font-family: "Muller";
+  src: local("Muller-Light"), url("/fonts/MullerLight.woff2") format("woff2"),
+    url("/fonts/MullerLight.woff") format("woff");
   font-style: normal;
   font-weight: 300;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('Muller-Regular'), 
-  url('/fonts/MullerRegular.woff2') format('woff2'),
-  url('/fonts/MullerRegular.woff') format('woff');
+  font-family: "Muller";
+  src: local("Muller-Regular"),
+    url("/fonts/MullerRegular.woff2") format("woff2"),
+    url("/fonts/MullerRegular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('Muller-Medium'), 
-  url('/fonts/MullerMedium.woff2') format('woff2'),
-  url('/fonts/MullerMedium.woff') format('woff');
+  font-family: "Muller";
+  src: local("Muller-Medium"), url("/fonts/MullerMedium.woff2") format("woff2"),
+    url("/fonts/MullerMedium.woff") format("woff");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: local('Muller-Bold'), 
-  url('/fonts/MullerBold.woff2') format('woff2'),
-  url('/fonts/MullerBold.woff') format('woff');
+  font-family: "Muller";
+  src: local("Muller-Bold"), url("/fonts/MullerBold.woff2") format("woff2"),
+    url("/fonts/MullerBold.woff") format("woff");
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -104,6 +101,11 @@ h6 {
 .section-title {
   margin: 0;
   padding-left: 40px;
+
+  color: #333333;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .section-descr {
@@ -117,10 +119,10 @@ h6 {
 .btn {
   padding: 13px 20px;
 
-  border: 1px solid #CC9933;
+  border: 1px solid #cc9933;
   border-radius: 10px;
 
-  color: #CC9933;
+  color: #cc9933;
   font-size: 16px;
   line-height: 16px;
 }
@@ -186,7 +188,7 @@ h6 {
 
   font-size: 16px;
   line-height: 16px;
-  color: #CC9933;
+  color: #cc9933;
 }
 
 .header-call-link {
@@ -204,7 +206,7 @@ h6 {
 
 .header-bottom-btns {
   padding-left: 57px;
-  border-left: 1px solid #E1E1E1;
+  border-left: 1px solid #e1e1e1;
 }
 
 /* Header section end */
@@ -220,23 +222,29 @@ h6 {
   margin-right: auto;
 }
 
-.offers-left-card {
+.offers-card-item {
   width: 573px;
-  padding: 40px 0 40px 40px;
   flex-direction: column;
   align-items: start;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 15px;
+
+  color: #ffffff;
 }
 
+.offers-left-card {
+  padding: 40px 0 40px 40px;
+}
 .offers-left-card:not(:last-child) {
   margin-bottom: 23px;
 }
 
 .offers-right-card {
-  width: 573px;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-
+  padding-top: 211px;
   padding-left: 40px;
 }
 
@@ -245,18 +253,46 @@ h6 {
   margin-bottom: 15px;
 
   width: 299px;
+
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
 }
 
 .offers-card-price {
   margin-bottom: 47px;
+
+  font-size: 20px;
+  line-height: 20px;
+  opacity: 0.8;
 }
 
 .offers-card-link-more {
   background-image: url("/img/details-icon.svg");
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: contain;
 
-  padding-right: 15px;
+  padding-right: 20px;
+
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffcc66;
+}
+
+.offers-card-title-right {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.offers-bc-maldiv {
+  background-image: url("/img/bc-hero-maldiv.jpeg");
+}
+.offer-bc-creet {
+  background-image: url("/img/bc-hero-creet.jpeg");
+}
+.offres-bc-vip {
+  background-image: url("/img/bc-heror-vip.jpeg");
 }
 
 /* Offers section end */
@@ -269,6 +305,10 @@ h6 {
 
 .about-us-descr {
   width: 888px;
+
+  font-size: 16px;
+  line-height: 200%;
+  color: #000;
 }
 
 /* About us section end */
@@ -287,6 +327,9 @@ h6 {
   width: 573px;
   margin-bottom: 23px;
   padding: 26px 126px 50px 45px;
+
+  background-color: #fff;
+  border-radius: 15px;
 }
 .services-item:not(:nth-child(2n)) {
   margin-right: 23px;
@@ -297,19 +340,49 @@ h6 {
 
 .services-item-title {
   margin: 0;
-  margin-bottom: 5px;
 }
 
 .services-item-descr {
   margin: 0;
+
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
 }
 
 .services-item-link {
   background-image: url("/img/details-icon.svg");
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: contain;
 
-  padding-right: 15px;
+  padding-right: 23px;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 200%;
+  color: #cc9933;
+}
+
+.services-item-bc {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 572px 165px;
+
+  padding-top: 190px;
+}
+
+.services-bc-ex {
+  background-image: url("/img//bc-services-ex.jpeg");
+}
+.services-bc-banquet {
+  background-image: url("/img/bc-services-banquet.jpeg");
+}
+.services-bc-pool {
+  background-image: url("/img/bc-serivces-pool.jpeg");
+}
+.services-bc-parkink {
+  background-image: url("/img/bc-services-parking.jpeg");
 }
 
 /* Services section end */
@@ -324,9 +397,12 @@ h6 {
   flex-wrap: wrap;
 }
 
-.advantages-card-item {
-  width: 275px;
+.advantages-item {
+  max-width: 275px;
   padding: 40px 42px 41px 45px;
+
+  background-color: #fff;
+  border-radius: 15px;
 }
 .advantages-item:not(:nth-child(4n)) {
   margin-right: 23px;
@@ -335,15 +411,23 @@ h6 {
   margin-bottom: 23px;
 }
 
+.advantages-card-item {
+  padding-top: 76px;
+}
+
+.advantages-item-text {
+  max-width: 188px;
+  margin: 0;
+  padding-top: 10px;
+
+  font-size: 16px;
+  line-height: 200%;
+  color: #000;
+}
+
 .advantages-item-icon {
-  display: block;
-  height: 66px;
-  width: 100%;
-
   background-repeat: no-repeat;
-  background-position: left center;
-
-  margin-bottom: 10px;
+  background-position: left top;
 }
 
 .advantages-item-icon--1 {
