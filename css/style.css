@@ -34,6 +34,24 @@ h6 {
   margin: 0;
 }
 
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+select {
+  border: none;
+  outline: none;
+}
+
 @font-face {
   font-family: "Muller";
   src: local("Muller-Light"), url("/fonts/MullerLight.woff2") format("woff2"),
@@ -559,10 +577,71 @@ h6 {
 }
 
 .placement-last-item {
-  background-image: url('/img/hotel-more.png');
+  background-image: url("/img/hotel-more.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 /* Placement section end */
+
+/* Tour section start */
+
+.tour-title {
+  margin-bottom: 20px;
+}
+
+.tour-container {
+  padding-top: 38px;
+  padding-bottom: 70px;
+
+  border-radius: 15px;
+  background-color: #e9e9e9;
+}
+
+.form {
+  padding: 0 45px;
+}
+
+.form-container {
+  justify-content: space-around;
+  align-items: center;
+  padding: 28px 28px;
+
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.form-left {
+  justify-content: space-between;
+}
+
+.fieldset-form {
+  padding-right: 20px;
+  padding-left: 20px;
+
+  border-right: 1px solid #e1e1e1;
+}
+.fieldset-form:first-child {
+  padding-left: 0;
+}
+
+.fieldset-select {
+  width: 169px;
+}
+
+.legend-form {
+  font-size: 12px;
+  line-height: 12px;
+
+  margin-bottom: 15px;
+}
+
+.input-num {
+  width: 141px;
+  display: inline-block;
+
+  border-bottom: 1px solid #CCCCCC;
+}
+
+/* Tour section end */

@@ -458,6 +458,67 @@
       </section>
 
       <!-- Section Placement end -->
+
+      <section class="section-offset section-tour">
+        <div class="container tour-container">
+          <h2 class="section-title tour-title">Хочу тур</h2>
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            method="post"
+            class="form"
+          >
+            <div class="form-container flex">
+              <div class="form-left flex">
+                <fieldset class="fieldset-form fieldset-select fieldset-select-city">
+                  <legend class="legend-form">Город вылета</legend>
+                  <select name="city" required class="input-select">
+                    <option value="Город" selected disabled>Город</option>
+                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                  </select>
+                </fieldset>
+                <fieldset class="fieldset-form fieldset-select fieldset-select-country">
+                  <legend class="legend-form">Страна</legend>
+                  <select name="country" required class="input-select">
+                    <option value="Город" selected disabled>Страна</option>
+                    <option value="Санкт-Петербург">Россия</option>
+                  </select>
+                </fieldset>
+                <fieldset class="fieldset-form">
+                  <legend class="legend-form">Дата прибытия</legend>
+                  <input type="date" name="date" required class="input-date" />
+                </fieldset>
+                <fieldset class="fieldset-form">
+                  <legend class="legend-form">Ночей</legend>
+                  <input
+                    type="number"
+                    name="nights"
+                    required
+                    placeholder="0"
+                    min="0"
+                    class="input-num"
+                  />
+                </fieldset>
+                <fieldset class="fieldset-form">
+                  <legend class="legend-form">Туристы</legend>
+                  <input
+                    type="number"
+                    name="tourists"
+                    required
+                    placeholder="0"
+                    min="0"
+                    class="input-num"
+                  />
+                </fieldset>
+              </div>
+              <div class="form-right">
+                <button type="submit" class="btn btn-reset form-btn">
+                  Найти
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- Main content end -->
