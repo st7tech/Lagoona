@@ -34,6 +34,10 @@ h6 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 input {
   margin: 0;
   padding: 0;
@@ -50,6 +54,8 @@ fieldset {
 select {
   border: none;
   outline: none;
+
+  background-color: transparent;
 }
 
 @font-face {
@@ -614,11 +620,14 @@ select {
 
 .form-left {
   justify-content: space-between;
+
+  margin-right: 20px;
 }
 
 .fieldset-form {
   padding-right: 20px;
   padding-left: 20px;
+  width: 121px;
 
   border-right: 1px solid #e1e1e1;
 }
@@ -626,7 +635,8 @@ select {
   padding-left: 0;
 }
 
-.fieldset-select {
+.fieldset-select,
+.input-select {
   width: 169px;
 }
 
@@ -634,14 +644,165 @@ select {
   font-size: 12px;
   line-height: 12px;
 
+  /* width: 121px; */
   margin-bottom: 15px;
 }
 
 .input-num {
-  width: 141px;
+  width: 121px;
   display: inline-block;
 
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
+}
+
+.form-btn {
+  padding: 13px 30px;
 }
 
 /* Tour section end */
+
+/* Contacts section start */
+
+.section-contacts {
+  margin-bottom: 20px;
+}
+
+.contacts-title {
+  margin-bottom: 26px;
+}
+
+.contacts-content {
+  padding: 44px 44px 46px 46px;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.contacts-content-left {
+  margin-right: 45px;
+
+  font-style: normal;
+}
+
+.contacts-content-item {
+  justify-content: space-between;
+  align-items: baseline;
+  width: 375px;
+}
+.contacts-content-item:not(:last-child) {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.contacts-item-title {
+  min-width: 98px;
+  margin-right: 47px;
+
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
+.contacts-item-text {
+  width: 229px;
+  flex-direction: column;
+
+  line-height: 150%;
+  color: #000;
+}
+
+.contacts-content-right {
+  height: 100%;
+}
+
+.contacts-link {
+  color: #CC9933;
+}
+
+.contacts-item-link-descr {
+  color: #999999;
+}
+
+.contacts-item-adress {
+  padding-bottom: 23px;
+}
+.contacts-item-phone {
+  padding-top: 25px;
+  padding-bottom: 31px;
+}
+.contacts-item-email {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.contacts-item-graph {
+  padding-top: 25px;
+  padding-bottom: 23px;
+  margin-bottom: 45px;
+}
+
+.contacts-btn {
+  padding: 27px 29px;
+}
+
+/* Contacts section end */
+
+.footer {
+  margin-bottom: 30px;
+}
+
+.footer-container {
+  padding: 45px;
+  background-color: #333333;
+
+  border-radius: 15px;
+}
+
+.footer-left {
+  flex-direction: column;
+  margin-right: 125px;
+}
+
+.footer-text-left {
+  width: 300px;
+
+  line-height: 190%;
+  color: #FFFFFF;
+}
+.footer-text-left:first-child {
+  margin-bottom: 37px;
+}
+.footer-text-left:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+.footer-link {
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.footer-right {
+  flex-direction: column;
+
+  background-image: url('/img/bc-footer.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+
+.footer-text-right {
+  width: 360px;
+
+  color: #FFFFFF;
+  line-height: 30px;
+}
+.footer-text-right:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer-link {
+  display: block;
+}
+
+/* Footer start */
