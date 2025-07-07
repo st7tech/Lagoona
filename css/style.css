@@ -718,7 +718,7 @@ select {
 }
 
 .contacts-link {
-  color: #CC9933;
+  color: #cc9933;
 }
 
 .contacts-item-link-descr {
@@ -768,7 +768,7 @@ select {
   width: 300px;
 
   line-height: 190%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-text-left:first-child {
   margin-bottom: 37px;
@@ -779,7 +779,7 @@ select {
 
 .footer-link {
   line-height: 150%;
-  color: #CC9933;
+  color: #cc9933;
 }
 
 .footer-right {
@@ -788,7 +788,7 @@ select {
 
   flex-direction: column;
 
-  background-image: url('/img/bc-footer.svg');
+  background-image: url("/img/bc-footer.svg");
   background-repeat: no-repeat;
   background-size: 254px 228px;
   background-position: right bottom;
@@ -797,7 +797,7 @@ select {
 .footer-text-right {
   width: 360px;
 
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 30px;
 }
 .footer-text-right:not(:last-child) {
@@ -826,13 +826,13 @@ select {
 }
 
 .social-icon-sova {
-  background-image: url('/img/sova.svg');
+  background-image: url("/img/sova.svg");
 }
 .social-icon-ok {
   background-image: url("/img/ok.svg");
 }
 .social-icon-vk {
-  background-image: url('/img/vk.svg');
+  background-image: url("/img/vk.svg");
 }
 
 /* Footer start */
